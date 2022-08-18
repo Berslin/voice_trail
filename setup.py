@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="voice_traile",
+    name="voicename",
     version="1.0.4",
     author="Berslin",
     #author_email="mathigatti@gmail.com",
     description="Singing synthesis from MIDI file",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Berslin/voice_traile",
+    url="https://github.com/Berslin/voicename",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
