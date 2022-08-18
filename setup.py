@@ -5,7 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="voice_traile",
-    #version="1.0.4",
+    version="1.0.4",
+    author="Berslin",
+    #author_email="mathigatti@gmail.com",
     description="Singing synthesis from MIDI file",
     long_description=long_description,
     long_description_content_type="text/markdown",
