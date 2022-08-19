@@ -1,5 +1,7 @@
 **/*.pyc
 **/__pycache__
+**/*.wav
+**/*.mid
 **/*.xml
 build
 dist
