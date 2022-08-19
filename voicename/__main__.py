@@ -8,7 +8,7 @@ ap.add_argument("-l", "--lyrics", required=True,
    help="Path to txt file containing the lyrics")
 ap.add_argument("-m", "--midi", required=True,
    help="Path to midi file")
-ap.add_argument("-lang", "--language", required=False, default="english", choices=['english', 'japanese', 'mandarin'],
+ap.add_argument("-lang", "--language", required=False, default="english", choices=['english', 'tamil', 'malayam'],
    help="Language of the voice (english/japanese/mandarin)")
 ap.add_argument("-g", "--gender", required=False, default="female", choices=['female', 'male'],
    help="Gender voice (female/male)")

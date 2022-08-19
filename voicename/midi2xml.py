@@ -9,7 +9,7 @@ from .lyrics_tokenizer import tokenize
 def midi2xml(lyrics, midi_path, xml_path, tempo=80, lang="english"):
 	temp_xml = "temp.xml"
 	create_music_xml(midi_path, temp_xml)
-	if lang in ["mandarin", "japanese"]:
+	if lang in ["tamil", "malayalam"]:
 		lyrics = ''.join(unicode(lyrics,'uft-8').split()) # remove white space and convert to unicode
 		lyrics = list(lyrics)
 	else:
