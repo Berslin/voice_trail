@@ -9,10 +9,10 @@ from .midi2xml import midi2xml
 voices_ids = {
 	"english":
 		{"female": [9,10], "male": [11]},
-	"tamil":
-		{"female": [0,1,2,4,5], "male": [3,8]},
-	"mayalam":
-		{"female": [12], "male": [6,7]}
+	"japanese":
+		{"female": [0,1,2,4,5,6,7], "male": [3,8]},
+	"mandarin":
+		{"female": [12], "male": []}
 }
 
 def renderize_voice(lyrics, midi_path, tempo=80, lang="english", gender="female", voiceindex=0, out_folder=".", vibpower=1, f0shift=0, synalpha=0.55):
